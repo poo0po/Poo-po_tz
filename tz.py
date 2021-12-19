@@ -1,9 +1,3 @@
-# my_file = open("TZ.txt", "w+")
-# my_file.write()
-# my_file.close()
-# print(my_file)
-
-
 def write(self, array, name):
     my_file = open(name, "w")
     for i in array:
@@ -12,14 +6,6 @@ def write(self, array, name):
 
 
 s = [7, 678, 6050, 3, 0.1, 700]
-# while True:
-#     print("Введите числа для списка")
-#     text = input()
-#     s.append(text)
-#     if not text:
-#         break
-#
-# s.remove('')
 print(s)
 
 mini = s[0]
@@ -45,7 +31,4 @@ for y in s:
     product *= y
 print("Произведение списка:", product)
 
-#sorted_s = sorted(s)
-#result = sorted_s[0]
-#print(sorted_s)
-#print("Наименьшее значение:", result)
+
